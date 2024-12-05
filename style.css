@@ -1,0 +1,140 @@
+body
+{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    padding: 50px;
+}
+.one
+{
+    background-image: linear-gradient(black,white);
+    color: white;
+    text-shadow: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.one__contact
+{
+    background-color: rgb(66, 66, 66);
+    display: inline-block;
+    border-radius: 5px; 
+    margin-top: 10px;   
+}
+.one__contact:hover,.form__submit:hover
+{
+    background-color: black;
+    color: white;
+}
+.one a
+{
+ text-decoration: none;
+ color: white;
+ padding: 5px;
+
+}
+.one__name
+{
+    font-size: 50px;
+}
+.one__role
+{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.two,.three,.four,.five
+{
+    margin-top: 20px;
+}
+.two__title,.three__title,.four__project,.five__desc
+{
+    margin-bottom: 10px;
+}
+.five
+{
+    background-image: linear-gradient(black,white);
+    color: white;
+    text-shadow: black;
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.five a
+{
+    color: #66f6ef;
+}
+.three__list,.four__list
+{
+    list-style: none;
+}
+.three
+{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-shadow: black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    border: solid black 1px;
+    background-image: linear-gradient(black,rgb(203, 203, 203));
+}
+.four
+{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-shadow: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    height: 200px;
+    background-image: linear-gradient(black,rgb(203, 203, 203));
+    border: solid black 1px;
+}
+.form
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form__name,.form__email,.form__message,.form__submit
+{
+    margin-top: 10px;
+}
+
+.form__name,.form__email
+{
+    border: none;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.form__message
+{
+    border: none;
+    padding: 10px;
+    border: solid black 1px;
+}
+.form__submit
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgb(66, 66, 66);
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+}
+.new
+{
+    margin: 30px;
+}
